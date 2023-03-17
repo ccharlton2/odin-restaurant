@@ -1,3 +1,5 @@
 import "./style.css";
-
-console.log("Hello webpack! Watch me!");
+import "./logo.png";
+import "./hero-img.jpg";
+import "./chef.jpg";
+import "./cocktail.jpg";
