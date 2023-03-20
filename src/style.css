@@ -170,15 +170,18 @@ a:hover::before {
   flex-direction: column;
   align-items: center;
   gap: 48px;
+  padding: 48px;
 }
 
 .review-title {
   font-size: 2rem;
+  margin: 0px;
 }
 
 .review-wrapper-wrapper {
   display: flex;
   gap: 48px;
+  padding: 48px;
 }
 
 .review-wrapper {
@@ -186,4 +189,18 @@ a:hover::before {
   flex-direction: column;
   align-items: center;
   gap: 24px;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-around;
+  padding: 48px;
+  background-color: #e0e0e0;
+}
+
+.contact-information,
+.address-information,
+.footer-links {
+  display: flex;
+  gap: 16px;
 }
