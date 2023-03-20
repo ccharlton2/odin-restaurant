@@ -162,6 +162,11 @@ a:hover::before {
   font-size: 2rem;
 }
 
+.menu-title,
+.menu-category-title {
+  margin: 24px 0px;
+}
+
 .menu-item {
   display: flex;
   flex-direction: column;
