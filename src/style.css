@@ -14,6 +14,18 @@ html {
   flex-direction: column;
 }
 
+.line-break-small {
+  width: 10%;
+}
+
+.line-break-medium {
+  width: 30%;
+}
+
+.line-break-large {
+  width: 70%;
+}
+
 .nav {
   display: flex;
   gap: 24px;
@@ -96,10 +108,6 @@ a:hover::before {
   color: white;
 }
 
-.line-break {
-  width: 10%;
-}
-
 .about-content {
   display: flex;
   flex-direction: column;
@@ -128,4 +136,31 @@ a:hover::before {
 .about-text {
   font-size: 1.5rem;
   line-height: 1.5;
+}
+
+.menu-container {
+  background-color: #333333;
+  color: #ffffff;
+  text-align: center;
+  padding: 48px;
+}
+
+.menu-title {
+  font-size: 3rem;
+}
+
+.menu-category-title {
+  font-size: 2rem;
+}
+
+.menu-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+  margin: 24px 0px;
+}
+
+.menu-item-name {
+  font-weight: 700;
 }
