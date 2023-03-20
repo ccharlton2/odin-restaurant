@@ -164,3 +164,26 @@ a:hover::before {
 .menu-item-name {
   font-weight: 700;
 }
+
+.review-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 48px;
+}
+
+.review-title {
+  font-size: 2rem;
+}
+
+.review-wrapper-wrapper {
+  display: flex;
+  gap: 48px;
+}
+
+.review-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+}
