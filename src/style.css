@@ -196,7 +196,7 @@ a:hover::before {
 
 .review-wrapper-wrapper {
   display: flex;
-  gap: 48px;
+  gap: 96px;
   padding: 48px;
 }
 
@@ -205,6 +205,10 @@ a:hover::before {
   flex-direction: column;
   align-items: center;
   gap: 24px;
+}
+
+.review-rating {
+  font-size: 2rem;
 }
 
 .footer-content {
