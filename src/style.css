@@ -79,7 +79,7 @@ a:hover::before {
 }
 
 .hero-content {
-  height: 50vh;
+  height: 75vh;
 }
 
 /* The hero image */
@@ -112,6 +112,7 @@ a:hover::before {
   display: flex;
   flex-direction: column;
   align-items: center;
+  height: 100vh;
 }
 
 .about-title {
@@ -171,6 +172,7 @@ a:hover::before {
   align-items: center;
   gap: 48px;
   padding: 48px;
+  height: 50vh;
 }
 
 .review-title {
@@ -206,6 +208,7 @@ a:hover::before {
   align-items: center;
   gap: 48px;
   padding: 48px;
+  height: 50vh;
 }
 
 .contact-title {
