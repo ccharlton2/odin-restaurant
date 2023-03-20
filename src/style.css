@@ -238,5 +238,23 @@ a:hover::before {
 .address-information,
 .footer-links {
   display: flex;
-  gap: 16px;
+  gap: 8px;
+}
+
+.address-information {
+  flex-direction: column;
+}
+
+.contact-information {
+  gap: 48px;
+}
+
+.contact-wrapper {
+  display: flex;
+}
+
+.tel,
+.email,
+.address-information {
+  font-weight: 700;
 }
