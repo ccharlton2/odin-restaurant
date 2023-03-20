@@ -9,6 +9,15 @@ html {
   margin: 0px;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0px;
+}
+
 #content {
   display: flex;
   flex-direction: column;
@@ -112,11 +121,12 @@ a:hover::before {
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
   height: 100vh;
 }
 
 .about-title {
-  font-size: 2rem;
+  font-size: 3rem;
 }
 
 .about-info-wrapper {
