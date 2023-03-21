@@ -36,12 +36,17 @@ h6 {
 }
 
 .nav {
+  position: sticky;
+  top: 0;
+  background-color: rgba(255, 255, 255, 0.9);
+  width: 100%;
+  overflow: hidden;
+  z-index: 40;
+
   display: flex;
   gap: 24px;
   align-items: baseline;
-  margin: 0px 24px;
-  margin-top: 20px;
-  margin-bottom: 40px;
+  padding: 24px;
 }
 
 .nav-wrapper {
