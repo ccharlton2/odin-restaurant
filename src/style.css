@@ -224,14 +224,22 @@ a:hover::before {
   display: flex;
   flex-direction: column;
   align-items: center;
+  align-self: center;
   justify-content: center;
   gap: 48px;
-  padding: 48px;
+  padding: 24px;
+  margin: 24px 0px;
   height: 50vh;
+  width: 50%;
+
+  border-radius: 12px;
+  background-color: #333333;
+  color: #ffffff;
+  box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px;
 }
 
 .contact-title {
-  font-size: 2rem;
+  font-size: 2.5rem;
 }
 
 .contact-information,
@@ -239,6 +247,11 @@ a:hover::before {
 .footer-links {
   display: flex;
   gap: 8px;
+}
+
+.contact-information,
+.address-information {
+  font-size: 1.5rem;
 }
 
 .address-information {
