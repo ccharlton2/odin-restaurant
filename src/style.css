@@ -197,7 +197,7 @@ a:hover::before {
 .review-wrapper-wrapper {
   display: flex;
   gap: 96px;
-  padding: 48px;
+  margin: 48px 0px;
 }
 
 .review-wrapper {
@@ -270,4 +270,10 @@ a:hover::before {
 .email,
 .address-information {
   font-weight: 700;
+}
+
+@media (max-width: 768px) {
+  .nav {
+    flex-direction: column;
+  }
 }
