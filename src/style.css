@@ -122,7 +122,6 @@ a:hover::before {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 100vh;
 }
 
 .about-title {
@@ -272,8 +271,22 @@ a:hover::before {
   font-weight: 700;
 }
 
+@media only screen and (min-width: 900px) {
+  .about-content {
+    height: 100vh;
+  }
+}
+
 @media (max-width: 768px) {
   .nav {
+    flex-direction: column;
+  }
+
+  .about-content {
+    padding: 24px;
+  }
+
+  .about-info-wrapper {
     flex-direction: column;
   }
 
