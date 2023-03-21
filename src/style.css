@@ -276,4 +276,12 @@ a:hover::before {
   .nav {
     flex-direction: column;
   }
+
+  .review-content {
+    height: 100vh;
+  }
+
+  .review-wrapper-wrapper {
+    flex-direction: column;
+  }
 }
