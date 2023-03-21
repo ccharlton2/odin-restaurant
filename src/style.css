@@ -83,7 +83,6 @@ a:hover::before {
 }
 
 .logo {
-  width: 300px;
   height: auto;
 }
 
@@ -270,7 +269,11 @@ a:hover::before {
   font-weight: 700;
 }
 
-@media only screen and (min-width: 900px) {
+@media only screen and (min-width: 768px) {
+  .logo {
+    width: 300px;
+  }
+
   .about-content {
     height: 100vh;
   }
@@ -287,6 +290,7 @@ a:hover::before {
 @media (max-width: 768px) {
   .nav {
     flex-direction: column;
+    margin-bottom: 20px;
   }
 
   .about-content {
