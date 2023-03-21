@@ -14,7 +14,7 @@ const logoImg = document.querySelector(".logo");
 console.log(logoImg);
 
 // Create a condition that targets viewports at least 768px wide
-const mediaQuery = window.matchMedia("(max-width: 768px)");
+const mediaQuery = window.matchMedia("(max-width: 900px)");
 
 function handleTabletChange(e) {
   // Check if the media query is true

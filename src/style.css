@@ -43,7 +43,6 @@ h6 {
   position: sticky;
   top: 0;
   background-color: rgba(255, 255, 255, 0.9);
-  width: 100%;
   overflow: hidden;
   z-index: 40;
 
@@ -72,7 +71,7 @@ a {
   text-decoration: none;
 }
 
-a::before {
+.nav-wrapper > a::before {
   content: "";
   position: absolute;
   width: 100%;
@@ -86,7 +85,7 @@ a::before {
   transition: transform 0.3s ease-in-out;
 }
 
-a:hover::before {
+.nav-wrapper > a:hover::before {
   transform-origin: left;
   transform: scaleX(1);
 }
@@ -278,7 +277,7 @@ a:hover::before {
   font-weight: 700;
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 900px) {
   .logo {
     width: 300px;
   }
@@ -296,7 +295,7 @@ a:hover::before {
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 900px) {
   .nav {
     flex-direction: column;
     margin-bottom: 20px;
