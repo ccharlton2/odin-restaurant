@@ -227,7 +227,7 @@ a:hover::before {
   align-self: center;
   justify-content: center;
   gap: 48px;
-  padding: 24px;
+  padding: 48px;
   margin: 24px 0px;
   height: 50vh;
   width: 50%;
@@ -282,6 +282,17 @@ a:hover::before {
   }
 
   .review-wrapper-wrapper {
+    flex-direction: column;
+  }
+
+  .contact-title,
+  .contact-information,
+  .address-information {
+    flex: 1;
+  }
+
+  .contact-information {
+    display: flex;
     flex-direction: column;
   }
 }
