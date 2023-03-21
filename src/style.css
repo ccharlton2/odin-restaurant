@@ -222,12 +222,11 @@ a:hover::before {
 .contact-content {
   display: flex;
   flex-direction: column;
-  align-items: center;
   align-self: center;
   justify-content: center;
   gap: 48px;
   padding: 48px;
-  margin: 24px 0px;
+  margin: 96px 0px;
   height: 50vh;
   width: 50%;
 
@@ -274,6 +273,14 @@ a:hover::before {
 @media only screen and (min-width: 900px) {
   .about-content {
     height: 100vh;
+  }
+
+  .contact-content {
+    align-items: center;
+  }
+
+  .contact-title {
+    align-self: center;
   }
 }
 
