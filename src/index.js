@@ -35,6 +35,7 @@ handleTabletChange(mediaQuery);
 const hamburgerCheck = document.getElementById("nav-check");
 const navDrawer = document.querySelector(".nav-links");
 const navLinks = document.querySelectorAll(".nav-link");
+const logoLink = document.getElementById("logo-link");
 
 console.log(navLinks);
 
@@ -43,6 +44,7 @@ for (let i = 0; i < navLinks.length; i += 1) {
 }
 
 hamburgerCheck.addEventListener("click", toggleNavDrawer);
+logoLink.addEventListener("click", toggleNavDrawer);
 
 function toggleNavDrawer() {
   navDrawer.classList.toggle("toggle-height");
