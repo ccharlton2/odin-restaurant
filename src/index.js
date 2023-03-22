@@ -31,3 +31,19 @@ mediaQuery.addListener(handleTabletChange);
 
 // Initial check
 handleTabletChange(mediaQuery);
+
+const hamburgerCheck = document.getElementById("nav-check");
+const navDrawer = document.querySelector(".nav-links");
+const navLinks = document.querySelectorAll(".nav-link");
+
+console.log(navLinks);
+
+for (let i = 0; i < navLinks.length; i += 1) {
+  navLinks[i].addEventListener("click", toggleNavDrawer);
+}
+
+hamburgerCheck.addEventListener("click", toggleNavDrawer);
+
+function toggleNavDrawer() {
+  navDrawer.classList.toggle("toggle-height");
+}

@@ -37,9 +37,86 @@ h6 {
 
 /* start */
 
+.nav {
+  position: sticky;
+  top: 0;
+  background-color: rgba(255, 255, 255, 0.9);
+  z-index: 40;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 24px;
+  padding: 24px;
+}
+
+.nav > * {
+  z-index: 40;
+}
+
+.nav > .nav-links {
+  display: inline;
+  float: right;
+  font-size: 18px;
+}
+
+.nav > .nav-links > a {
+  display: inline-block;
+  padding: 13px 10px 13px 10px;
+  text-decoration: none;
+  color: black;
+}
+
+.nav > #nav-check {
+  display: none;
+}
+
+@media (max-width: 900px) {
+  .nav > .nav-btn {
+    right: 0px;
+    top: 0px;
+  }
+  .nav > .nav-btn > label {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    padding: 13px;
+  }
+
+  .nav > .nav-btn > label > span {
+    display: block;
+    width: 25px;
+    height: 10px;
+    border-top: 2px solid black;
+  }
+  .nav > .nav-links {
+    position: absolute;
+    display: block;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.9);
+    height: 0px;
+    transition: all 0.3s ease-in;
+    overflow-y: hidden;
+    top: 128px;
+    left: 0px;
+  }
+  .nav > .nav-links > a {
+    display: block;
+    width: 100%;
+  }
+
+  .nav-links {
+    height: 0px;
+  }
+
+  .toggle-height {
+    height: calc(100vh - 50px) !important;
+    overflow-y: auto !important;
+  }
+}
 /* end */
 
-.nav {
+/* .nav {
   position: sticky;
   top: 0;
   background-color: rgba(255, 255, 255, 0.9);
@@ -88,7 +165,7 @@ a {
 .nav-wrapper > a:hover::before {
   transform-origin: left;
   transform: scaleX(1);
-}
+} */
 
 .logo {
   height: auto;
@@ -297,7 +374,6 @@ a {
 
 @media (max-width: 900px) {
   .nav {
-    flex-direction: column;
     margin-bottom: 20px;
   }
 
