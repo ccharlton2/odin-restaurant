@@ -99,7 +99,7 @@ h6 {
     height: 0px;
     transition: all 0.3s ease-in;
     overflow-y: hidden;
-    top: 126px;
+    top: 125px;
     left: 0px;
   }
   .nav > .nav-links > a {
@@ -356,6 +356,10 @@ a {
 }
 
 @media only screen and (min-width: 900px) {
+  .nav {
+    align-items: baseline;
+  }
+
   .logo {
     width: 300px;
   }
@@ -374,12 +378,8 @@ a {
 }
 
 @media (max-width: 900px) {
-  .nav {
-    margin-bottom: 20px;
-  }
-
   .about-content {
-    padding: 24px;
+    padding: 112px 24px;
   }
 
   .about-info-wrapper {

@@ -11,7 +11,6 @@ const copyYearSpan = document.getElementById("copy-year");
 copyYearSpan.textContent = copyYear;
 
 const logoImg = document.querySelector(".logo");
-console.log(logoImg);
 
 // Create a condition that targets viewports at least 768px wide
 const mediaQuery = window.matchMedia("(max-width: 900px)");
@@ -36,8 +35,6 @@ const hamburgerCheck = document.getElementById("nav-check");
 const navDrawer = document.querySelector(".nav-links");
 const navLinks = document.querySelectorAll(".nav-link");
 const logoLink = document.getElementById("logo-link");
-
-console.log(navLinks);
 
 for (let i = 0; i < navLinks.length; i += 1) {
   navLinks[i].addEventListener("click", toggleNavDrawer);
