@@ -257,7 +257,7 @@ h6 {
   font-weight: 700;
 }
 
-@media only screen and (min-width: 900px) {
+@media only screen and (min-width: 920px) {
   .nav {
     align-items: baseline;
   }
@@ -281,7 +281,7 @@ h6 {
   }
 }
 
-@media (max-width: 900px) {
+@media (max-width: 920px) {
   .nav > .nav-btn {
     right: 0px;
     top: 0px;
