@@ -12,7 +12,9 @@ copyYearSpan.textContent = copyYear;
 
 const logoImg = document.querySelector(".logo");
 
-const mediaQuery = window.matchMedia("(max-width: 920px)");
+const mediaQuery = window.matchMedia("(max-width: 1142px)");
+
+console.log(window.innerWidth);
 
 function handleTabletChange(e) {
   // Check if the media query is true
@@ -45,5 +47,7 @@ logoLink.addEventListener("click", () => {
 });
 
 function toggleNavDrawer() {
-  navDrawer.classList.toggle("toggle-height");
+  if (window.innerWidth <= 1142) {
+    navDrawer.classList.toggle("toggle-height");
+  }
 }

@@ -111,6 +111,8 @@ h6 {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+
+  padding: 128px 24px;
 }
 
 .about-title {
@@ -257,7 +259,7 @@ h6 {
   font-weight: 700;
 }
 
-@media only screen and (min-width: 920px) {
+@media only screen and (min-width: 1142px) {
   .nav {
     align-items: baseline;
   }
@@ -281,7 +283,7 @@ h6 {
   }
 }
 
-@media (max-width: 920px) {
+@media (max-width: 1142px) {
   .nav > .nav-btn {
     right: 0px;
     top: 0px;
@@ -320,10 +322,6 @@ h6 {
   .toggle-height {
     height: calc(100vh - 50px) !important;
     overflow-y: auto !important;
-  }
-
-  .about-content {
-    padding: 128px 24px;
   }
 
   .about-info-wrapper {
