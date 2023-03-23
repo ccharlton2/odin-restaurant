@@ -17,19 +17,15 @@ const mediaQuery = window.matchMedia("(max-width: 1142px)");
 console.log(window.innerWidth);
 
 function handleTabletChange(e) {
-  // Check if the media query is true
   if (e.matches) {
-    // Then log the following message to the console
     logoImg.src = "./logo-mobile.png";
   } else {
     logoImg.src = "./logo.png";
   }
 }
 
-// Register event listener
 mediaQuery.addListener(handleTabletChange);
 
-// Initial check
 handleTabletChange(mediaQuery);
 
 const hamburgerCheck = document.getElementById("nav-check");
