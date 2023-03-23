@@ -99,7 +99,7 @@ h6 {
     height: 0px;
     transition: all 0.3s ease-in;
     overflow-y: hidden;
-    top: 125px;
+    top: 126px;
     left: 0px;
   }
   .nav > .nav-links > a {
@@ -269,7 +269,7 @@ a {
   align-items: center;
   justify-content: center;
   gap: 48px;
-  padding: 48px;
+  padding: 112px 48px;
   height: 50vh;
 }
 
