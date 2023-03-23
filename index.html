@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Chez Lemon</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <script defer src="bundle.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500&family=Roboto+Slab:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div id="content">
+      <div class="nav">
+        <input type="checkbox" id="nav-check" />
+        <div class="nav-header">
+          <a id="logo-link" href="#"
+            ><img
+              class="logo"
+              src="./logo.png"
+              alt="Chez Lemon's logo. It reads the text Chez Lemon with a lemon squirting to the right of it."
+          /></a>
+        </div>
+        <div class="nav-btn">
+          <label for="nav-check">
+            <span></span>
+            <span></span>
+            <span></span>
+          </label>
+        </div>
+
+        <div class="nav-links" id="nav-drawer">
+          <a href="#about" class="nav-link">About</a>
+          <a href="#menu" class="nav-link">Menu</a>
+          <a href="#reviews" class="nav-link">Reviews</a>
+          <a href="#contact" class="nav-link">Contact</a>
+        </div>
+      </div>
+
+      <div class="hero-content">
+        <div class="hero-image">
+          <div class="hero-text">
+            <h1>An Experience Like No Other</h1>
+            <p>Squeeze your troubles away</p>
+            <hr class="line-break-medium" />
+          </div>
+        </div>
+      </div>
+
+      <!-- TODO: Fade in about content as scroll -->
+
+      <div id="about" class="about-content">
+        <h2 class="about-title">Delivering Excellence Est. 2023</h2>
+        <div class="about-info-wrapper">
+          <div class="about-img-wrapper">
+            <img
+              class="about-img"
+              src="./chef.jpg"
+              alt="This is our chef. He is a baby."
+            />
+          </div>
+          <div class="about-text">
+            Every great glass of lemonade has it's origin story. It starts with
+            expertly tended lemon trees. For 24 hours a day these trees are
+            looked after with the utmost care. Our citron specialists use our
+            local ZEST-1001 supercomputer to run a series of complex
+            calculations, of which will reveal the perfect time to harvest the
+            fruit. Once harvested, our lemons are put into our proprietary
+            stasis pods to preserve freshness. Next, our vigorously trained Sour
+            Servers await your order. Once received, your server will convert
+            our recently harvested citrus into mouth watering lemonade.
+            Bone-Apple-Tea!
+          </div>
+        </div>
+        <div id="menu"></div>
+      </div>
+
+      <div class="menu-container">
+        <h3 class="menu-title">Menu</h3>
+        <hr class="line-break-medium" />
+        <h4 class="menu-category-title">Classics</h4>
+        <div class="menu-item">
+          <div class="menu-item-name">Item 1</div>
+          <div class="menu-item-description">
+            This is a description of a menu item
+          </div>
+          <div class="menu-item-price">10</div>
+        </div>
+        <div class="menu-item">
+          <div class="menu-item-name">Item 2</div>
+          <div class="menu-item-description">
+            This is a description of a menu item
+          </div>
+          <div class="menu-item-price">10</div>
+        </div>
+        <div class="menu-item">
+          <div class="menu-item-name">Item 3</div>
+          <div class="menu-item-description">
+            This is a description of a menu item
+          </div>
+          <div class="menu-item-price">10</div>
+        </div>
+        <hr class="line-break-large" />
+        <h4 class="menu-category-title">Blends</h4>
+        <div class="menu-item">
+          <div class="menu-item-name">Item 4</div>
+          <div class="menu-item-description">
+            This is a description of a menu item
+          </div>
+          <div class="menu-item-price">10</div>
+        </div>
+        <div class="menu-item">
+          <div class="menu-item-name">Item 5</div>
+          <div class="menu-item-description">
+            This is a description of a menu item
+          </div>
+          <div class="menu-item-price">10</div>
+        </div>
+        <div class="menu-item">
+          <div class="menu-item-name">Item 6</div>
+          <div class="menu-item-description">
+            This is a description of a menu item
+          </div>
+          <div class="menu-item-price">10</div>
+        </div>
+        <div class="menu-item">
+          <div class="menu-item-name">Item 7</div>
+          <div class="menu-item-description">
+            This is a description of a menu item
+          </div>
+          <div class="menu-item-price">10</div>
+        </div>
+        <hr class="line-break-large" />
+        <h4 class="menu-category-title">Specialty</h4>
+        <div class="menu-item">
+          <div class="menu-item-name">Item 8</div>
+          <div class="menu-item-description">
+            This is a description of a menu item
+          </div>
+          <div class="menu-item-price">10</div>
+        </div>
+        <div class="menu-item">
+          <div class="menu-item-name">Item 9</div>
+          <div class="menu-item-description">
+            This is a description of a menu item
+          </div>
+          <div class="menu-item-price">10</div>
+        </div>
+        <div class="menu-item">
+          <div class="menu-item-name">Item 10</div>
+          <div class="menu-item-description">
+            This is a description of a menu item
+          </div>
+          <div class="menu-item-price">10</div>
+        </div>
+        <hr class="line-break-medium" />
+      </div>
+
+      <div id="reviews" class="review-content">
+        <h2 class="review-title">Reviews</h2>
+        <div class="review-wrapper-wrapper">
+          <div class="review-wrapper">
+            <div class="review-text">"A true triumph!"</div>
+            <div class="review-rating">★★★★</div>
+            <div class="review-author">SQUEEZED.COM</div>
+          </div>
+          <div class="review-wrapper">
+            <div class="review-text">
+              "I've never tasted anything quite like this."
+            </div>
+            <div class="review-rating">★★★★★</div>
+            <div class="review-author">THEZESTOFTHEM.COM</div>
+          </div>
+          <div class="review-wrapper">
+            <div class="review-text">"A must try!"</div>
+            <div class="review-rating">★★★★★</div>
+            <div class="review-author">LIQUID.GOV</div>
+          </div>
+        </div>
+      </div>
+
+      <hr class="line-break-medium" />
+
+      <div id="contact" class="contact-content">
+        <h2 class="contact-title">Contact Us!</h2>
+        <div class="contact-information">
+          <div class="tel">tel: 403-292-xxxx</div>
+          <div class="email">email: chezlemon53@hotmail.com</div>
+        </div>
+        <div class="address-information">
+          <div class="street-address">1 Lemon Street</div>
+          <div class="town-name">Soursby</div>
+          <div class="prov-state">LM</div>
+          <div class="postal-code">R56 9H6</div>
+          <div class="country">United Squeezed Republic</div>
+        </div>
+      </div>
+
+      <div class="footer-content">
+        <div class="footer-links">
+          <a href="#">Link 1</a>
+          <a href="#">Link 2</a>
+          <a href="#">Link 3</a>
+          <a href="#">Link 4</a>
+        </div>
+        <small>&copy; <span id="copy-year"></span>, Chez Lemon Inc.</small>
+      </div>
+    </div>
+  </body>
+</html>
