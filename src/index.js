@@ -41,7 +41,9 @@ for (let i = 0; i < navLinks.length; i += 1) {
 }
 
 hamburgerCheck.addEventListener("click", toggleNavDrawer);
-logoLink.addEventListener("click", toggleNavDrawer);
+logoLink.addEventListener("click", () => {
+  navDrawer.classList.remove("toggle-height");
+});
 
 function toggleNavDrawer() {
   navDrawer.classList.toggle("toggle-height");
