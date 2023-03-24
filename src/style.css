@@ -124,7 +124,7 @@ h6 {
   flex-direction: column;
   align-items: center;
   padding: 48px;
-  gap: 48px;
+  gap: 96px;
 }
 
 .about-img {
@@ -136,6 +136,22 @@ h6 {
 .about-text {
   font-size: 1.5rem;
   line-height: 1.5;
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  align-items: center;
+  gap: 96px;
+}
+
+.about-card {
+  display: flex;
+  align-items: center;
+  border: 12px solid #966f33;
+  background-color: #333333;
+  color: #e0e0e0;
+  padding: 24px;
+  width: 75%;
+  height: 500px;
 }
 
 .menu-container {
@@ -270,9 +286,9 @@ h6 {
     width: 300px;
   }
 
-  .about-content {
+  /* .about-content {
     height: 100vh;
-  }
+  } */
 
   .contact-content {
     align-items: center;
