@@ -149,15 +149,26 @@ h6 {
 }
 
 .about-card {
-  font-family: "Fasthand", cursive;
+  font-family: "Fredericka the Great", cursive;
   display: flex;
+  flex-direction: column;
   align-items: center;
   border: 12px solid #966f33;
   background-color: #333333;
   color: #e0e0e0;
+  gap: 48px;
   padding: 24px;
   width: 75%;
-  height: 600px;
+  height: 450px;
+}
+
+.card-step {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font-size: 4rem;
 }
 
 .menu-container {
@@ -292,9 +303,9 @@ h6 {
     width: 300px;
   }
 
-  /* .about-content {
-    height: 100vh;
-  } */
+  .about-card {
+    font-size: 2rem;
+  }
 
   .contact-content {
     align-items: center;
@@ -309,6 +320,11 @@ h6 {
 
 /* Mobile */
 @media (max-width: 1142px) {
+  .toggle-height {
+    height: calc(100vh - 50px) !important;
+    overflow-y: auto !important;
+  }
+
   .nav > .nav-btn {
     right: 0px;
     top: 0px;
@@ -344,9 +360,9 @@ h6 {
     height: 0px;
   }
 
-  .toggle-height {
-    height: calc(100vh - 50px) !important;
-    overflow-y: auto !important;
+  .about-card {
+    font-size: 1.3rem;
+    height: 600px;
   }
 
   .review-content {
