@@ -45,7 +45,6 @@ h6 {
   top: 0;
   background-color: rgba(255, 255, 255, 0.9);
   z-index: 40;
-
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -67,7 +66,8 @@ h6 {
 }
 
 .nav > .nav-links > a {
-  display: inline-block;
+  display: flex;
+  flex-direction: column;
   padding: 13px 10px 13px 10px;
   text-decoration: none;
   color: black;
@@ -353,7 +353,7 @@ h6 {
     left: 0px;
   }
   .nav > .nav-links > a {
-    width: 100%;
+    width: calc(100vw - 50px);
   }
 
   .nav-links {
@@ -374,7 +374,7 @@ h6 {
   }
 
   .contact-content {
-    width: 75%;
+    width: 50%;
   }
 
   .contact-title,
