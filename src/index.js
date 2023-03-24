@@ -14,8 +14,6 @@ const logoImg = document.querySelector(".logo");
 
 const mediaQuery = window.matchMedia("(max-width: 1142px)");
 
-console.log(window.innerWidth);
-
 function handleTabletChange(e) {
   if (e.matches) {
     logoImg.src = "./logo-mobile.png";
