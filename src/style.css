@@ -301,6 +301,9 @@ h6 {
   .nav > .nav-btn {
     right: 0px;
     top: 0px;
+    background-color: transparent;
+    border: none;
+    padding: 0px;
   }
   .nav > .nav-btn > label {
     width: 50px;
