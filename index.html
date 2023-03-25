@@ -8,7 +8,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500&family=Roboto+Slab:wght@300;400;700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Fasthand&family=Fredericka+the+Great&family=Playfair+Display:wght@400;500&family=Roboto+Slab:wght@300;400;700&display=swap"
       rel="stylesheet"
     />
   </head>
@@ -24,13 +24,13 @@
               alt="Chez Lemon's logo. It reads the text Chez Lemon with a lemon squirting to the right of it."
           /></a>
         </div>
-        <div class="nav-btn">
+        <button class="nav-btn">
           <label for="nav-check">
             <span></span>
             <span></span>
             <span></span>
           </label>
-        </div>
+        </button>
 
         <div class="nav-links" id="nav-drawer">
           <a href="#about" class="nav-link">About</a>
@@ -50,8 +50,6 @@
         </div>
       </div>
 
-      <!-- TODO: Fade in about content as scroll -->
-
       <div id="about" class="about-content">
         <h2 class="about-title">Delivering Excellence Est. 2023</h2>
         <div class="about-info-wrapper">
@@ -63,16 +61,31 @@
             />
           </div>
           <div class="about-text">
-            Every great glass of lemonade has it's origin story. It starts with
-            expertly tended lemon trees. For 24 hours a day these trees are
-            looked after with the utmost care. Our citron specialists use our
-            local ZEST-1001 supercomputer to run a series of complex
-            calculations, of which will reveal the perfect time to harvest the
-            fruit. Once harvested, our lemons are put into our proprietary
-            stasis pods to preserve freshness. Next, our vigorously trained Sour
-            Servers await your order. Once received, your server will convert
-            our recently harvested citrus into mouth watering lemonade.
-            Bone-Apple-Tea!
+            <div class="about-card">
+              <div class="card-step">1</div>
+              Every great glass of lemonade has it's origin story. It starts
+              with expertly tended lemon trees. For 24 hours a day these trees
+              are looked after with the utmost care.
+            </div>
+
+            <hr class="line-break-medium" />
+
+            <div class="about-card">
+              <div class="card-step">2</div>
+              Our citron specialists use our local ZEST-1001 supercomputer to
+              run a series of complex calculations, of which will reveal the
+              perfect time to harvest the fruit. Once harvested, our lemons are
+              put into our proprietary stasis pods to preserve freshness.
+            </div>
+
+            <hr class="line-break-medium" />
+
+            <div class="about-card">
+              <div class="card-step">3</div>
+              Next, our vigorously trained Sour Servers await your order. Once
+              received, your server will convert our recently harvested citrus
+              into mouth watering lemonade. Bone-Apple-Tea!
+            </div>
           </div>
         </div>
         <div id="menu"></div>
@@ -184,18 +197,20 @@
 
       <hr class="line-break-medium" />
 
-      <div id="contact" class="contact-content">
-        <h2 class="contact-title">Contact Us!</h2>
-        <div class="contact-information">
-          <div class="tel">tel: 403-292-xxxx</div>
-          <div class="email">email: chezlemon53@hotmail.com</div>
-        </div>
-        <div class="address-information">
-          <div class="street-address">1 Lemon Street</div>
-          <div class="town-name">Soursby</div>
-          <div class="prov-state">LM</div>
-          <div class="postal-code">R56 9H6</div>
-          <div class="country">United Squeezed Republic</div>
+      <div class="contact-wrapper">
+        <div id="contact" class="contact-content">
+          <h2 class="contact-title">Contact Us!</h2>
+          <div class="contact-information">
+            <div class="tel">tel: 403-292-xxxx</div>
+            <div class="email">email: chezlemon53@hotmail.com</div>
+            <div class="address">
+              <div class="street-address">1 Lemon Street</div>
+              <div class="town-name">Soursby</div>
+              <div class="prov-state">LM</div>
+              <div class="postal-code">R56 9H6</div>
+              <div class="country">United Squeezed Republic</div>
+            </div>
+          </div>
         </div>
       </div>
 
