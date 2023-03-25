@@ -308,7 +308,6 @@ h6 {
   .nav > .nav-btn > label {
     width: 50px;
     height: 50px;
-    padding: 13px;
   }
 
   .nav > .nav-btn > label > span {
@@ -325,7 +324,7 @@ h6 {
     height: 0px;
     transition: all 0.3s ease-in;
     overflow-y: hidden;
-    top: 126px;
+    top: 114px;
     left: 0px;
   }
   .nav > .nav-links > a {
