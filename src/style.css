@@ -250,7 +250,7 @@ h6 {
 .contact-content {
   display: flex;
   flex-direction: column;
-  padding: 128px 48px;
+  margin: 128px 48px;
   font-size: 20px;
 }
 
@@ -261,8 +261,11 @@ h6 {
 .contact-information {
   display: flex;
   flex-direction: column;
+  border-radius: 12px;
   gap: 16px;
   margin-top: 24px;
+  padding: 24px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
 .footer-content {
