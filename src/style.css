@@ -2,6 +2,11 @@ html {
   scroll-behavior: smooth;
 }
 
+body {
+  display: flex;
+  flex-direction: column;
+}
+
 body,
 html {
   font-family: "Roboto Slab", serif;
@@ -24,6 +29,8 @@ h6 {
 }
 
 #content {
+  /* display: flex;
+  flex-direction: column; */
 }
 
 .line-break-small {
@@ -120,6 +127,7 @@ h6 {
 
 .about-title {
   font-size: 3rem;
+  margin: 48px 0px;
 }
 
 .about-info-wrapper {
@@ -206,8 +214,7 @@ h6 {
   align-items: center;
   justify-content: center;
   gap: 48px;
-  padding: 112px 48px;
-  height: 50vh;
+  padding: 128px 48px;
 }
 
 .review-title {
@@ -232,6 +239,29 @@ h6 {
   font-size: 2rem;
 }
 
+.contact-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.contact-content {
+  display: flex;
+  flex-direction: column;
+  padding: 128px 48px;
+  font-size: 20px;
+}
+
+.contact-title {
+  text-align: center;
+}
+
+.contact-information {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-top: 24px;
+}
+
 .footer-content {
   display: flex;
   flex-direction: column;
@@ -239,55 +269,6 @@ h6 {
   gap: 24px;
   padding: 24px;
   background-color: #e0e0e0;
-}
-
-.contact-content {
-  display: flex;
-  flex-direction: column;
-  align-self: center;
-  justify-content: center;
-  gap: 48px;
-  padding: 48px;
-  margin: 96px 0px;
-
-  border-radius: 12px;
-  background-color: #333333;
-  color: #ffffff;
-  box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px;
-}
-
-.contact-title {
-  font-size: 2.5rem;
-}
-
-.contact-information,
-.address-information,
-.footer-links {
-  display: flex;
-  gap: 8px;
-}
-
-.contact-information,
-.address-information {
-  font-size: 1.5rem;
-}
-
-.address-information {
-  flex-direction: column;
-}
-
-.contact-information {
-  gap: 48px;
-}
-
-.contact-wrapper {
-  display: flex;
-}
-
-.tel,
-.email,
-.address-information {
-  font-weight: 700;
 }
 
 /* Desktop */
@@ -300,18 +281,12 @@ h6 {
     width: 300px;
   }
 
+  .about-title {
+    margin: 96px 0px;
+  }
+
   .about-card {
     font-size: 2rem;
-  }
-
-  .contact-content {
-    align-items: center;
-    height: 50vh;
-    width: 50%;
-  }
-
-  .contact-title {
-    align-self: center;
   }
 }
 
@@ -362,26 +337,7 @@ h6 {
     height: 600px;
   }
 
-  .review-content {
-    height: 100vh;
-  }
-
   .review-wrapper-wrapper {
-    flex-direction: column;
-  }
-
-  .contact-content {
-    width: 50%;
-  }
-
-  .contact-title,
-  .contact-information,
-  .address-information {
-    flex: 1;
-  }
-
-  .contact-information {
-    display: flex;
     flex-direction: column;
   }
 }
