@@ -294,6 +294,10 @@ h6 {
     align-items: baseline;
   }
 
+  .nav-btn {
+    display: none;
+  }
+
   .logo {
     width: 300px;
   }
